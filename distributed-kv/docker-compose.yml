@@ -1,0 +1,32 @@
+version: "3.9"
+
+services:
+  node1:
+    build: .
+    container_name: node1
+    ports:
+      - "8001:8000"
+    environment:
+      - NODE_ID=node1
+    volumes:
+      - ./data/node1:/app/data
+
+  node2:
+    build: .
+    container_name: node2
+    ports:
+      - "8002:8000"
+    environment:
+      - NODE_ID=node2
+    volumes:
+      - ./data/node2:/app/data
+
+  node3:
+    build: .
+    container_name: node3
+    ports:
+      - "8003:8000"
+    environment:
+      - NODE_ID=node3
+    volumes:
+      - ./data/node3:/app/data

@@ -1,0 +1,5 @@
+["user1", {"value": "Data in node 3", "timestamp": 1766365642.9027138, "deleted": false}]
+["user1", {"value": "Data in node 3", "timestamp": 1766365642.9027138, "deleted": false}]
+["user1", {"value": "Data in node 3", "timestamp": 1766365642.9027138, "deleted": false}]
+["key2", {"value": "Data through node 2", "timestamp": 1766366956.6780057, "deleted": false}]
+["key3", {"value": "Data through node 3", "timestamp": 1766366993.5737221, "deleted": false}]
